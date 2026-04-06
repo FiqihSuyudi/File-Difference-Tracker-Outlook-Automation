@@ -1,0 +1,32 @@
+🔄 Automated Data Comparison
+Compare datasets (Excel/CSV) to detect added, deleted, and modified records using key-based matching.
+🧠 Smart Change Detection Logic
+Identifies changes only across shared columns and highlights exact differences using a clear “old → new” format
+📊 Excel Report Generation (Wide Format)
+Automatically generates structured Excel reports with:
+Changed cells highlighted (yellow)
+New rows (green)
+Deleted rows (red)
+New columns (blue)
+📧 Outlook Email Draft Automation
+Creates ready-to-send email drafts including:
+Summary of detected changes
+Embedded screenshots
+Attached Excel reports
+🖼️ Visual Reporting (Image Snapshots)
+Generates visual summaries of dataset changes for easy review by stakeholders.
+📁 Automatic File Detection
+Detects latest dataset files based on naming patterns (e.g., dataset_YYYY-MM-DD.xlsx) to streamline daily workflows.
+⚙️ Multi-Dataset Processing
+Supports multiple datasets in a single run with configurable keys and comparison modes.
+🎛️ User-Friendly GUI
+Interactive interface built with Tkinter for:
+File selection
+Key selection
+Mode configuration
+Process monitoring
+📦 Consolidated Reporting
+Combines multiple dataset comparisons into a single Excel workbook with separate sheets per dataset.
+🔁 End-to-End Automation Workflow
+Fully automates the process from:
+data comparison → report generation → email draft creation
